@@ -1,0 +1,318 @@
+{
+  "analysis_date": "2026-02-04",
+  "source": "Michael Burry warning via Bloomberg",
+  "bitcoin_critical_levels": {
+    "current_resistance": 73000,
+    "warning_level_1": 70000,
+    "warning_level_2": 65000,
+    "warning_level_3": 60000,
+    "burry_target": 55000,
+    "capitulation_zone": 50000,
+    "strong_buy_1": 45000,
+    "extreme_opportunity": 40000
+  },
+  "investment_opportunities": [
+    {
+      "id": 1,
+      "name": "Precious Metals (Gold/Silver)",
+      "type": "defensive",
+      "potential_profit": "20-40%",
+      "timeframe": "12-18 months",
+      "risk_level": "low",
+      "priority": "high",
+      "action": "buy_now",
+      "instruments": [
+        "Physical gold",
+        "GLD ETF",
+        "IAU ETF",
+        "Physical silver",
+        "SLV ETF"
+      ],
+      "rationale": "Gold and silver reached record highs while Bitcoin failed as inflation hedge"
+    },
+    {
+      "id": 2,
+      "name": "Short Cryptocurrencies",
+      "type": "speculative_short",
+      "potential_profit": "50-100%+",
+      "timeframe": "3-6 months",
+      "risk_level": "high",
+      "priority": "medium",
+      "action": "consider_if_btc_above_70k",
+      "instruments": [
+        "Bitcoin put options",
+        "Inverse Bitcoin ETF",
+        "Crypto futures (short)"
+      ],
+      "rationale": "Burry indicates no factors to stop Bitcoin decline, potential drop to $50k"
+    },
+    {
+      "id": 3,
+      "name": "Buy Bitcoin at Bottom",
+      "type": "long_term_accumulation",
+      "potential_profit": "100-200%",
+      "timeframe": "2-5 years",
+      "risk_level": "medium",
+      "priority": "high",
+      "action": "wait_for_45k_55k",
+      "strategy": {
+        "55000": "20% of capital",
+        "50000": "30% of capital",
+        "45000": "50% of capital"
+      },
+      "rationale": "Historical Bitcoin recovery after major crashes, long-term blockchain value"
+    },
+    {
+      "id": 4,
+      "name": "Short Crypto Companies",
+      "type": "speculative_short",
+      "potential_profit": "30-60%",
+      "timeframe": "6-12 months",
+      "risk_level": "high",
+      "priority": "medium",
+      "action": "consider_if_btc_below_70k",
+      "companies": [
+        {
+          "ticker": "MSTR",
+          "name": "MicroStrategy",
+          "risk": "highest",
+          "note": "Largest corporate Bitcoin holder"
+        },
+        {
+          "ticker": "MARA",
+          "name": "Marathon Digital",
+          "risk": "high",
+          "note": "Bitcoin miner"
+        },
+        {
+          "ticker": "RIOT",
+          "name": "Riot Platforms",
+          "risk": "high",
+          "note": "Bitcoin miner"
+        },
+        {
+          "ticker": "COIN",
+          "name": "Coinbase",
+          "risk": "medium-high",
+          "note": "Crypto exchange"
+        }
+      ],
+      "rationale": "~200 public companies hold Bitcoin, billions in losses expected"
+    },
+    {
+      "id": 5,
+      "name": "Traditional Safe Assets",
+      "type": "defensive",
+      "potential_profit": "8-15%",
+      "timeframe": "ongoing",
+      "risk_level": "low",
+      "priority": "medium",
+      "action": "diversify_now",
+      "sectors": [
+        "US Treasury bonds",
+        "High dividend stocks",
+        "Energy sector",
+        "Defense companies"
+      ],
+      "rationale": "Capital outflow from crypto supports traditional markets"
+    },
+    {
+      "id": 6,
+      "name": "Prediction Markets",
+      "type": "speculative",
+      "potential_profit": "15-40%",
+      "timeframe": "ongoing",
+      "risk_level": "medium-high",
+      "priority": "low",
+      "action": "explore",
+      "platforms": [
+        "Polymarket",
+        "Kalshi",
+        "PredictIt"
+      ],
+      "rationale": "Traders migrating from crypto to prediction markets"
+    }
+  ],
+  "portfolio_allocation": {
+    "conservative": {
+      "precious_metals": 40,
+      "cash_bonds": 20,
+      "traditional_stocks": 15,
+      "crypto_shorts": 10,
+      "btc_reserve": 10,
+      "speculative": 5
+    },
+    "aggressive": {
+      "precious_metals": 30,
+      "crypto_shorts": 25,
+      "btc_reserve": 20,
+      "traditional_stocks": 15,
+      "speculative": 10
+    }
+  },
+  "action_signals": {
+    "sell_short_signals": [
+      {
+        "condition": "BTC falls below $70,000",
+        "action": "Consider short positions",
+        "urgency": "medium"
+      },
+      {
+        "condition": "MicroStrategy announces forced BTC sale",
+        "action": "Increase shorts",
+        "urgency": "high"
+      },
+      {
+        "condition": "Mass miner bankruptcies",
+        "action": "Maximum crypto sector short",
+        "urgency": "high"
+      }
+    ],
+    "buy_signals": [
+      {
+        "condition": "BTC reaches $50,000-55,000",
+        "action": "Begin accumulation",
+        "urgency": "high"
+      },
+      {
+        "condition": "ETF outflows slow or stop",
+        "action": "Prepare for bottom",
+        "urgency": "medium"
+      },
+      {
+        "condition": "Bitcoin hashrate stabilizes after capitulation",
+        "action": "Active buying",
+        "urgency": "high"
+      },
+      {
+        "condition": "Positive regulatory news",
+        "action": "Increase position size",
+        "urgency": "medium"
+      }
+    ],
+    "gold_signals": [
+      {
+        "condition": "Dollar weakens",
+        "action": "Increase gold positions",
+        "urgency": "medium"
+      },
+      {
+        "condition": "Geopolitical tension rises",
+        "action": "Maximum precious metals exposure",
+        "urgency": "high"
+      },
+      {
+        "condition": "Inflation expectations rise",
+        "action": "Add silver",
+        "urgency": "medium"
+      }
+    ]
+  },
+  "timeline": {
+    "short_term": {
+      "period": "1-3 months",
+      "expectations": [
+        "BTC may test $60,000-65,000",
+        "First small miner bankruptcies",
+        "Continued ETF outflows"
+      ],
+      "recommended_action": "Monitor, prepare short positions"
+    },
+    "medium_term": {
+      "period": "3-6 months",
+      "expectations": [
+        "Possible $50,000 target (Burry's prediction)",
+        "Miner capitulation",
+        "Corporate BTC sales begin"
+      ],
+      "recommended_action": "Begin accumulation at extreme levels"
+    },
+    "long_term": {
+      "period": "6-12+ months",
+      "expectations": [
+        "Bottom formation and consolidation",
+        "Regulatory clarity",
+        "Gradual confidence recovery"
+      ],
+      "recommended_action": "Active accumulation of quality assets"
+    }
+  },
+  "risk_management": {
+    "critical_mistakes_to_avoid": [
+      "Never buy Bitcoin on credit or borrowed money",
+      "Never invest all capital in one position",
+      "Never panic sell if bought according to plan",
+      "Never ignore stop-losses on speculative positions",
+      "Never invest money needed for living expenses",
+      "Never buy on emotions (FOMO)",
+      "Never forget diversification"
+    ],
+    "position_sizing": {
+      "maximum_single_position": "25-30%",
+      "minimum_cash_reserve": "20-30%",
+      "speculative_positions_max": "10-15%"
+    }
+  },
+  "monitoring_tools": {
+    "price_data": [
+      {
+        "name": "TradingView",
+        "url": "https://www.tradingview.com/",
+        "purpose": "Charts and technical analysis"
+      },
+      {
+        "name": "CoinGlass",
+        "url": "https://www.coinglass.com/",
+        "purpose": "Liquidation data and open interest"
+      },
+      {
+        "name": "Bitcoin Magazine Pro",
+        "url": "https://bitcoinmagazinepro.com/",
+        "purpose": "On-chain analytics"
+      }
+    ],
+    "fundamental_data": [
+      {
+        "name": "Blockchain.com",
+        "url": "https://www.blockchain.com/",
+        "purpose": "Network hashrate"
+      },
+      {
+        "name": "CryptoQuant",
+        "url": "https://cryptoquant.com/",
+        "purpose": "Exchange flows"
+      },
+      {
+        "name": "Glassnode",
+        "url": "https://glassnode.com/",
+        "purpose": "Professional on-chain analytics"
+      }
+    ],
+    "news_sources": [
+      {
+        "name": "Bloomberg Crypto",
+        "url": "https://www.bloomberg.com/crypto",
+        "purpose": "Macroeconomic context"
+      },
+      {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/",
+        "purpose": "Crypto industry news"
+      }
+    ]
+  },
+  "burry_track_record": {
+    "famous_for": "Predicting 2008 financial crisis",
+    "success": "Made billions betting against housing market",
+    "credibility": "High - proven track record",
+    "note": "Featured in 'The Big Short' book and movie"
+  },
+  "market_context": {
+    "btc_drop_from_peak": "40%",
+    "jan_2026_etf_outflows": 1600000000,
+    "btc_sp500_correlation": 0.50,
+    "companies_holding_btc": "~200 public companies",
+    "btc_market_cap": "< $1.5 trillion",
+    "psychological_level": 80000
+  }
+}
